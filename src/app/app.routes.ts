@@ -4,6 +4,8 @@ import { Kanto } from './kanto/kanto';
 import { Johto } from './johto/johto';
 import { PokemonComponent } from './pokemon/pokemon';
 import { PokemartComponent } from './pokemart/pokemart';
+import { MenuComponent } from './menu/menu';
+import { CartComponent } from './cart/cart';
 
 export const routes: Routes = [
   {
@@ -25,6 +27,14 @@ export const routes: Routes = [
   {
     path: 'pokemart',
     component: PokemartComponent
+  },
+  {
+    path: 'menu',
+    component: MenuComponent
+  },
+  {
+    path: 'cart',
+    component: CartComponent
   },
   {
     path: '',
