@@ -1,0 +1,12 @@
+<h1>Johto Gym Leaders</h1>
+
+@for (leader of leaders; track leader.name) {
+  <app-leader-info
+    [name]="leader.name"
+    [age]="leader.age"
+    [location]="leader.location"
+    [pokemonTeam]="leader.pokemonTeam"
+    [gymBadge]="leader.gymBadge"
+    [description]="leader.description">
+  </app-leader-info>
+}

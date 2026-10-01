@@ -1,0 +1,20 @@
+.region {
+  padding: 25px;
+}
+
+.johto {
+  background: #fff4e6;
+  border-radius: 15px;
+}
+
+.johto h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.introduction {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 25px;
+}

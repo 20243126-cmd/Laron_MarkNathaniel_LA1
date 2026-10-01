@@ -1,0 +1,27 @@
+.pokemon-page {
+  padding: 30px;
+  text-align: center;
+}
+
+.region-buttons {
+  margin: 20px;
+}
+
+.region-buttons button {
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.pokemon-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.pokemon-card {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  background: #f8f8f8;
+}
